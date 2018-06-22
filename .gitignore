@@ -16,7 +16,10 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-/bin
+/bin/*
+!/bin/rails*
+!/bin/rake*
+!/bin/spring*
 
 # Ignore Byebug command history file.
 .byebug_history
